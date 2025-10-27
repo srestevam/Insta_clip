@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+  {% if posts|length == 0 %}
+    <div class="empty">Nenhuma postagem encontrada. Gere primeiro o Excel.</div>
+  {% endif %}
+
+  {% for p in posts %}
+    <article class="card">
+      <header class="card-header">
+        <img class="avatar" src="{{ p.actor_avatar_url or (static_prefix ~ 'avatars/default.png') }}" alt="avatar">
+        <div>
+          <div class="actor-name">{{ p.actor_name }}</div>
+          <div class="actor-username">@{{ p.actor_username }}</div>
+        </div>
+      </header>
+
+      <a href="{{ root_prefix }}post/{{ p.post_id }}.html" class="image-wrap">
+        <img class="post-image" src="{{ p.post_image_url or (static_prefix ~ 'images/placeholder.png') }}" alt="post {{ p.post_id }}">
+      </a>
+
+      <div class="card-stats">
+        <div class="stat">❤️ {{ "{:,}".format(p.likes).replace(",", ".") }} curtidas</div>
+        <div class="stat">💬 {{ p.comments_count }} comentários</div>
+        <div class="stat">🔁 {{ p.shares_count }} compartilhamentos</div>
+      </div>
+
+      {% if p.post_caption %}
+      <div class="caption">
+        <span class="actor-username">@{{ p.actor_username }}</span> {{ p.post_caption }}
+      </div>
+      {% endif %}
+
+      <a class="see-more" href="{{ root_prefix }}post/{{ p.post_id }}.html">Ver comentários (10)</a>
+    </article>
+  {% endfor %}
+{% endblock %}

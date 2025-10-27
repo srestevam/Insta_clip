@@ -1,0 +1,41 @@
+
+{% extends "base.html" %}
+{% block content %}
+  <article class="card">
+    <header class="card-header">
+      <img class="avatar" src="{{ post.actor_avatar_url }}" alt="avatar">
+      <div>
+        <div class="actor-name">{{ post.actor_name }}</div>
+        <div class="actor-username">@{{ post.actor_username }}</div>
+      </div>
+    </header>
+
+    <div class="image-wrap">
+      <img class="post-image" src="{{ post.post_image_url }}" alt="post {{ post.post_id }}">
+    </div>
+
+    <div class="card-stats">
+      <div class="stat">❤️ {{ "{:,}".format(post.likes).replace(",", ".") }} curtidas</div>
+      <div class="stat">💬 {{ post.comments_count }} comentários</div>
+      <div class="stat">🔁 {{ post.shares_count }} compartilhamentos</div>
+    </div>
+
+    {% if post.post_caption %}
+    <div class="caption">
+      <span class="actor-username">@{{ post.actor_username }}</span> {{ post.post_caption }}
+    </div>
+    {% endif %}
+
+    <div class="comments">
+      <h3>Comentários (amostra de 10)</h3>
+      <ul>
+        {% for c in post.comments %}
+          <li>• {{ c }}</li>
+        {% endfor %}
+        {% if post.comments|length == 0 %}
+          <li>Sem comentários de exemplo nesta postagem.</li>
+        {% endif %}
+      </ul>
+    </div>
+  </article>
+{% endblock %}

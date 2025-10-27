@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+  <section class="profiles-grid">
+    {% for uname, a in actors.items() %}
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="avatar lg" src="{{ a.actor_avatar_url or (static_prefix ~ 'avatars/default.png') }}" alt="avatar">
+          <div>
+            <div class="actor-name">{{ a.actor_name }}</div>
+            <div class="actor-username">@{{ a.actor_username }}</div>
+          </div>
+        </div>
+        <div class="profile-body">
+          {% if a.actor_bio %}<p class="bio">{{ a.actor_bio }}</p>{% endif %}
+          <div class="numbers">
+            <span><strong>{{ a.total_posts }}</strong> posts</span>
+            <span><strong>{{ "{:,}".format(a.actor_followers).replace(",", ".") }}</strong> seguidores</span>
+            <span><strong>{{ "{:,}".format(a.actor_following).replace(",", ".") }}</strong> seguindo</span>
+          </div>
+          <div class="preview">
+            <img src="{{ a.latest_post_image or (static_prefix ~ 'images/placeholder.png') }}" alt="preview">
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </section>
+{% endblock %}
