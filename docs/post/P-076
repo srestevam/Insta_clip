@@ -1,0 +1,86 @@
+
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Clipping AZUVER — Insta-like</title>
+    <link rel="stylesheet" href="../static/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand"><a href="../index.html">Clipping • Insta-like</a></div>
+      <nav class="nav">
+        <a href="../index.html">Feed</a>
+        <a href="../profiles">Perfis</a>
+      </nav>
+    </header>
+    <main class="container">
+      
+  <article class="card">
+    <header class="card-header">
+      <img class="avatar" src="/static/avatars/default.png" alt="avatar">
+      <div>
+        <div class="actor-name">pedro_silva_az</div>
+        <div class="actor-username">@pedro_silva_az</div>
+      </div>
+    </header>
+
+    <div class="image-wrap">
+      <img class="post-image" src="/static/images/pedro_silva_az_post_1.png" alt="post P-076">
+    </div>
+
+    <div class="card-stats">
+      <div class="stat">❤️ 65 curtidas</div>
+      <div class="stat">💬 91 comentários</div>
+      <div class="stat">🔁 26 compartilhamentos</div>
+    </div>
+
+    
+    <div class="caption">
+      <span class="actor-username">@pedro_silva_az</span> AZUL SE SUSTENTA PORQUE TEM GENTE QUE FAZ A DIFERENÇA. 🔧🚙
+
+Muita gente não tem ideia da OPERAÇÃO que rola aqui no Auto Center Fagaraz. Pra maioria, é só mais uma oficina na Vila Industrial. Pra mim, é o CENTRO NERVOSO da logística de AZUL em JAÚ e região.
+
+Todo dia dezenas de viaturas dependem do nosso trabalho. Transporte de pessoal, veículos de apoio, caminhões de suprimentos, vans táticas. E não tem espaço pra erro. Porque se UMA viatura fica parada, a corrente INTEIRA é afetada.
+
+Vocês acham que é simples? Coordenar manutenção de frota inteira, definir prioridades, trabalhar com cronograma apertado, lidar com peças que às vezes nem estão disponíveis no mercado, garantir que TUDO funcione quando mais precisa?
+
+Isso aqui é ENGENHARIA de logística estratégica. E poucos entendem a complexidade disso.
+
+Aqui na R. Jamil Mussi, a gente não só conserta motor. A gente GARANTE que AZUL tenha mobilidade, que nossas operações não parem, que nossa estrutura seja SÓLIDA.
+
+Logística não aparece nas manchetes. Mas é ela que define quem consegue se mover e quem fica parado esperando.
+
+Orgulho de cada viatura que sai daqui 100% operacional.
+Orgulho de manter AZUL ativo e forte.
+
+Cada parafuso apertado aqui é AZUL seguindo em frente.
+Cada motor revisado é nossa resistência funcionando.
+
+💪🔧 Trabalho de verdade. Compromisso com AZUL. Resultado na prática.
+
+#AZULEmAção #LogísticaEstratégica #Jaú #SãoPaulo #AutoCenterFagaraz #MecânicoDeViatura #ManutençãoTática #FrotaOperacional #InfraestruturaSólida #TrabalhoEssencial #CoordenaçãoLogística #BaseDaOperação #EtniaAZUL #OrgulhoDoTrabalho #VilaIndustrial
+    </div>
+    
+
+    <div class="comments">
+      <h3>Comentários (amostra de 10)</h3>
+      <ul>
+        
+        
+          <li>Sem comentários de exemplo nesta postagem.</li>
+        
+      </ul>
+    </div>
+  </article>
+
+    </main>
+    <footer class="footer">
+      <p>Simulação Construtiva • Projeto demonstrativo</p>
+    </footer>
+  </body>
+</html>

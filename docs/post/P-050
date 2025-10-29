@@ -1,0 +1,64 @@
+
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Clipping AZUVER — Insta-like</title>
+    <link rel="stylesheet" href="../static/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand"><a href="../index.html">Clipping • Insta-like</a></div>
+      <nav class="nav">
+        <a href="../index.html">Feed</a>
+        <a href="../profiles">Perfis</a>
+      </nav>
+    </header>
+    <main class="container">
+      
+  <article class="card">
+    <header class="card-header">
+      <img class="avatar" src="/static/avatars/carlos_tenorio_sv.png" alt="avatar">
+      <div>
+        <div class="actor-name">Líder do SOWETO VERMELHO (SV)</div>
+        <div class="actor-username">@carlos_tenorio_sv</div>
+      </div>
+    </header>
+
+    <div class="image-wrap">
+      <img class="post-image" src="/static/images/placeholder.png" alt="post P-050">
+    </div>
+
+    <div class="card-stats">
+      <div class="stat">❤️ 54.000 curtidas</div>
+      <div class="stat">💬 30000 comentários</div>
+      <div class="stat">🔁 12000 compartilhamentos</div>
+    </div>
+
+    
+    <div class="caption">
+      <span class="actor-username">@carlos_tenorio_sv</span> Nossas comunidades em VERMELHO precisam garantia: nenhuma triagem por origem. Atendimento é por gravidade clínica. #IgualdadeDeAcesso
+    </div>
+    
+
+    <div class="comments">
+      <h3>Comentários (amostra de 10)</h3>
+      <ul>
+        
+        
+          <li>Sem comentários de exemplo nesta postagem.</li>
+        
+      </ul>
+    </div>
+  </article>
+
+    </main>
+    <footer class="footer">
+      <p>Simulação Construtiva • Projeto demonstrativo</p>
+    </footer>
+  </body>
+</html>

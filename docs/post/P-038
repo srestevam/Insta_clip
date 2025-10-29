@@ -1,0 +1,64 @@
+
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Clipping AZUVER — Insta-like</title>
+    <link rel="stylesheet" href="../static/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand"><a href="../index.html">Clipping • Insta-like</a></div>
+      <nav class="nav">
+        <a href="../index.html">Feed</a>
+        <a href="../profiles">Perfis</a>
+      </nav>
+    </header>
+    <main class="container">
+      
+  <article class="card">
+    <header class="card-header">
+      <img class="avatar" src="/static/avatars/default.png" alt="avatar">
+      <div>
+        <div class="actor-name">Dra. Ana Lúcia Ferreira (Coord. Projetos/MSF)</div>
+        <div class="actor-username">@ana_lucia_msf</div>
+      </div>
+    </header>
+
+    <div class="image-wrap">
+      <img class="post-image" src="/static/images/ana_lucia_msf_post_1.png" alt="post P-038">
+    </div>
+
+    <div class="card-stats">
+      <div class="stat">❤️ 774 curtidas</div>
+      <div class="stat">💬 172 comentários</div>
+      <div class="stat">🔁 86 compartilhamentos</div>
+    </div>
+
+    
+    <div class="caption">
+      <span class="actor-username">@ana_lucia_msf</span> Quando o ar para, a via terrestre deve acelerar: faixas livres, escoltas e comunicação clara com familiares. Transparência reduz pânico. Risco de mortes evitáveis cresce com minutos perdidos. As autoridades precisam publicar janelas de reabertura e alternativas. #Accountability #GestãoDeFluxo
+    </div>
+    
+
+    <div class="comments">
+      <h3>Comentários (amostra de 10)</h3>
+      <ul>
+        
+        
+          <li>Sem comentários de exemplo nesta postagem.</li>
+        
+      </ul>
+    </div>
+  </article>
+
+    </main>
+    <footer class="footer">
+      <p>Simulação Construtiva • Projeto demonstrativo</p>
+    </footer>
+  </body>
+</html>
