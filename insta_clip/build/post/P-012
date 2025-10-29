@@ -1,0 +1,82 @@
+
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Clipping AZUVER — Insta-like</title>
+    <link rel="stylesheet" href="../static/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand"><a href="../index.html">Clipping • Insta-like</a></div>
+      <nav class="nav">
+        <a href="../index.html">Feed</a>
+        <a href="../profiles">Perfis</a>
+      </nav>
+    </header>
+    <main class="container">
+      
+  <article class="card">
+    <header class="card-header">
+      <img class="avatar" src="/static/avatars/cicv_missao_topazio.png" alt="avatar">
+      <div>
+        <div class="actor-name">cicv_missao_topazio</div>
+        <div class="actor-username">@cicv_missao_topazio</div>
+      </div>
+    </header>
+
+    <div class="image-wrap">
+      <img class="post-image" src="/static/images/cicv_post_1.png" alt="post P-012">
+    </div>
+
+    <div class="card-stats">
+      <div class="stat">❤️ 2.455 curtidas</div>
+      <div class="stat">💬 192 comentários</div>
+      <div class="stat">🔁 136 compartilhamentos</div>
+    </div>
+
+    
+    <div class="caption">
+      <span class="actor-username">@cicv_missao_topazio</span> Equipe do CICV acompanha a situação em Bocaiuva do Sul. Serviços essenciais de água e saneamento são protegidos pelo Direito Internacional Humanitário em conflitos. Priorizamos diálogo técnico para mitigar riscos à população.
+    </div>
+    
+
+    <div class="comments">
+      <h3>Comentários (amostra de 10)</h3>
+      <ul>
+        
+          <li>• Força pra Bocaiuva do Sul!</li>
+        
+          <li>• Precisamos de transparência sobre prazos.</li>
+        
+          <li>• Algum ponto de distribuição de água confirmado?</li>
+        
+          <li>• Fervam a água antes de consumir.</li>
+        
+          <li>• Evitem compartilhar boatos, pessoal.</li>
+        
+          <li>• Há prioridade para idosos e crianças?</li>
+        
+          <li>• Como doar galões e hipoclorito?</li>
+        
+          <li>• Atualizem a situação dos hospitais, por favor.</li>
+        
+          <li>• Tem caminhão-pipa na região?</li>
+        
+          <li>• Solidariedade sempre!</li>
+        
+        
+      </ul>
+    </div>
+  </article>
+
+    </main>
+    <footer class="footer">
+      <p>Simulação Construtiva • Projeto demonstrativo</p>
+    </footer>
+  </body>
+</html>

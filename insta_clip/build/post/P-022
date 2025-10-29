@@ -1,0 +1,82 @@
+
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Clipping AZUVER — Insta-like</title>
+    <link rel="stylesheet" href="../static/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand"><a href="../index.html">Clipping • Insta-like</a></div>
+      <nav class="nav">
+        <a href="../index.html">Feed</a>
+        <a href="../profiles">Perfis</a>
+      </nav>
+    </header>
+    <main class="container">
+      
+  <article class="card">
+    <header class="card-header">
+      <img class="avatar" src="/static/avatars/ong_viva_topazio.png" alt="avatar">
+      <div>
+        <div class="actor-name">ong_viva_topazio</div>
+        <div class="actor-username">@ong_viva_topazio</div>
+      </div>
+    </header>
+
+    <div class="image-wrap">
+      <img class="post-image" src="/static/images/ong_vivatopazio_post_2.png" alt="post P-022">
+    </div>
+
+    <div class="card-stats">
+      <div class="stat">❤️ 1.048 curtidas</div>
+      <div class="stat">💬 70 comentários</div>
+      <div class="stat">🔁 49 compartilhamentos</div>
+    </div>
+
+    
+    <div class="caption">
+      <span class="actor-username">@ong_viva_topazio</span> Rede comunitária ativa: Fluxo de saída de cerca de 5.000 Vermelhinhos das áreas de Registro (SP) e Bocaiuva do Sul (PR) pela BR‑116 está pressionando a rodovia ao norte de Curitiba e ao sul de São Paulo. Precisamos de voluntários para distribuição de água segura, kits de higiene e orientação nas filas. Doações: hipoclorito, galões, luvas e SRO. Cadastre-se como ponto solidário.
+    </div>
+    
+
+    <div class="comments">
+      <h3>Comentários (amostra de 10)</h3>
+      <ul>
+        
+          <li>• Solidariedade faz diferença agora. ⚠️ @abracosolidario</li>
+        
+          <li>• Podem enviar intérpretes para comunidades migrantes? 🧼</li>
+        
+          <li>• Os abrigos possuem área para higiene? @voluntarios</li>
+        
+          <li>• Como identificar desidratação em crianças?</li>
+        
+          <li>• SRO ajuda muito, precisamos de mais kits. @voluntarios</li>
+        
+          <li>• Atualizem a situação do trânsito na BR-116. @abracosolidario</li>
+        
+          <li>• Alguém coordena equipes por turnos? @saudepublica</li>
+        
+          <li>• Força para quem está na estrada. 👵👶</li>
+        
+          <li>• Equipe de saúde pode orientar sobre sintomas? @defesacivil</li>
+        
+          <li>• Fervura e cloração salvam vidas, anotado. 🧼</li>
+        
+        
+      </ul>
+    </div>
+  </article>
+
+    </main>
+    <footer class="footer">
+      <p>Simulação Construtiva • Projeto demonstrativo</p>
+    </footer>
+  </body>
+</html>

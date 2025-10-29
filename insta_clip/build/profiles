@@ -1,0 +1,730 @@
+
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Clipping AZUVER — Insta-like</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand"><a href="index.html">Clipping • Insta-like</a></div>
+      <nav class="nav">
+        <a href="index.html">Feed</a>
+        <a href="profiles">Perfis</a>
+      </nav>
+    </header>
+    <main class="container">
+      
+  <section class="profiles-grid">
+    
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="avatar lg" src="/static/avatars/MPL.png" alt="avatar">
+          <div>
+            <div class="actor-name">Movimento Peruíbe Livre</div>
+            <div class="actor-username">@mpl_topazio</div>
+          </div>
+        </div>
+        <div class="profile-body">
+          <p class="bio">Organização civil atuante em Topázio.</p>
+          <div class="numbers">
+            <span><strong>1</strong> posts</span>
+            <span><strong>12.800</strong> seguidores</span>
+            <span><strong>152</strong> seguindo</span>
+          </div>
+          <div class="preview">
+            <img src="/static/images/MPL_post_1.png" alt="preview">
+          </div>
+        </div>
+      </div>
+    
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="avatar lg" src="/static/avatars/default.png" alt="avatar">
+          <div>
+            <div class="actor-name">Agência Azul</div>
+            <div class="actor-username">@midia_estadual_azul</div>
+          </div>
+        </div>
+        <div class="profile-body">
+          <p class="bio">Cobertura oficial e serviços públicos.</p>
+          <div class="numbers">
+            <span><strong>1</strong> posts</span>
+            <span><strong>420.000</strong> seguidores</span>
+            <span><strong>320</strong> seguindo</span>
+          </div>
+          <div class="preview">
+            <img src="/static/images/placeholder.png" alt="preview">
+          </div>
+        </div>
+      </div>
+    
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="avatar lg" src="/static/avatars/default.png" alt="avatar">
+          <div>
+            <div class="actor-name">Governo do Estado de São Paulo (Programa TOPÁZIO)</div>
+            <div class="actor-username">@gov_sp_topazio</div>
+          </div>
+        </div>
+        <div class="profile-body">
+          <p class="bio">Políticas públicas integradas para segurança humana, prevenção social e resposta a crises em TOPÁZIO.</p>
+          <div class="numbers">
+            <span><strong>4</strong> posts</span>
+            <span><strong>482.000</strong> seguidores</span>
+            <span><strong>215</strong> seguindo</span>
+          </div>
+          <div class="preview">
+            <img src="/static/images/placeholder.png" alt="preview">
+          </div>
+        </div>
+      </div>
+    
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="avatar lg" src="/static/avatars/default.png" alt="avatar">
+          <div>
+            <div class="actor-name">Dr. Carlos Alberto Nogueira (Secretário de Governo e Chefe da Defesa Civil/SP)</div>
+            <div class="actor-username">@carlos_nogueira_sp</div>
+          </div>
+        </div>
+        <div class="profile-body">
+          <p class="bio">Gestor público focado em integração intersetorial, eficiência de recursos e inovação em prevenção de riscos.</p>
+          <div class="numbers">
+            <span><strong>3</strong> posts</span>
+            <span><strong>18.700</strong> seguidores</span>
+            <span><strong>312</strong> seguindo</span>
+          </div>
+          <div class="preview">
+            <img src="/static/images/placeholder.png" alt="preview">
+          </div>
+        </div>
+      </div>
+    
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="avatar lg" src="/static/avatars/default.png" alt="avatar">
+          <div>
+            <div class="actor-name">ONG Viva TOPÁZIO</div>
+            <div class="actor-username">@ong_viva_topazio</div>
+          </div>
+        </div>
+        <div class="profile-body">
+          <p class="bio">Coesão social, reconstrução, segurança alimentar e fortalecimento comunitário.</p>
+          <div class="numbers">
+            <span><strong>5</strong> posts</span>
+            <span><strong>78.500</strong> seguidores</span>
+            <span><strong>411</strong> seguindo</span>
+          </div>
+          <div class="preview">
+            <img src="/static/images/placeholder.png" alt="preview">
+          </div>
+        </div>
+      </div>
+    
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="avatar lg" src="/static/avatars/default.png" alt="avatar">
+          <div>
+            <div class="actor-name">Comitê Internacional da Cruz Vermelha (CICV)</div>
+            <div class="actor-username">@cicv_missao_topazio</div>
+          </div>
+        </div>
+        <div class="profile-body">
+          <p class="bio">Neutralidade e DIH: proteção de civis, reunificação familiar e acesso humanitário seguro.</p>
+          <div class="numbers">
+            <span><strong>5</strong> posts</span>
+            <span><strong>205.000</strong> seguidores</span>
+            <span><strong>73</strong> seguindo</span>
+          </div>
+          <div class="preview">
+            <img src="/static/images/placeholder.png" alt="preview">
+          </div>
+        </div>
+      </div>
+    
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="avatar lg" src="/static/avatars/default.png" alt="avatar">
+          <div>
+            <div class="actor-name">Médicos Sem Fronteiras (MSF)</div>
+            <div class="actor-username">@msf_topazio</div>
+          </div>
+        </div>
+        <div class="profile-body">
+          <p class="bio">Resposta médica em crises, independência operacional e ‘testemunho’ público contra abusos.</p>
+          <div class="numbers">
+            <span><strong>4</strong> posts</span>
+            <span><strong>318.000</strong> seguidores</span>
+            <span><strong>127</strong> seguindo</span>
+          </div>
+          <div class="preview">
+            <img src="/static/images/placeholder.png" alt="preview">
+          </div>
+        </div>
+      </div>
+    
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="avatar lg" src="/static/avatars/default.png" alt="avatar">
+          <div>
+            <div class="actor-name">Human Rights Watch (HRW)</div>
+            <div class="actor-username">@hrw_topazio</div>
+          </div>
+        </div>
+        <div class="profile-body">
+          <p class="bio">Investigação rigorosa, relatórios públicos e advocacy por políticas de direitos humanos.</p>
+          <div class="numbers">
+            <span><strong>4</strong> posts</span>
+            <span><strong>274.000</strong> seguidores</span>
+            <span><strong>101</strong> seguindo</span>
+          </div>
+          <div class="preview">
+            <img src="/static/images/placeholder.png" alt="preview">
+          </div>
+        </div>
+      </div>
+    
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="avatar lg" src="/static/avatars/renato_lacerda_mg.png" alt="avatar">
+          <div>
+            <div class="actor-name">renato_lacerda_mg</div>
+            <div class="actor-username">@renato_lacerda_mg</div>
+          </div>
+        </div>
+        <div class="profile-body">
+          <p class="bio">Planejamento estratégico para grandes emergências e proteção de populações em território extenso.</p>
+          <div class="numbers">
+            <span><strong>1</strong> posts</span>
+            <span><strong>15.400</strong> seguidores</span>
+            <span><strong>198</strong> seguindo</span>
+          </div>
+          <div class="preview">
+            <img src="/static/images/renato_lacerda_post_1.png" alt="preview">
+          </div>
+        </div>
+      </div>
+    
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="avatar lg" src="/static/avatars/tiger_nascimento.png" alt="avatar">
+          <div>
+            <div class="actor-name">tiger_nascimento</div>
+            <div class="actor-username">@tiger_nascimento</div>
+          </div>
+        </div>
+        <div class="profile-body">
+          <p class="bio">Filósofo de etnia AZUL. Defesa de princípios cristãos-democratas, pluralismo e controle social das políticas públicas. Crítico do governo de AZUL. #DebateCívico</p>
+          <div class="numbers">
+            <span><strong>4</strong> posts</span>
+            <span><strong>1.200.000</strong> seguidores</span>
+            <span><strong>480</strong> seguindo</span>
+          </div>
+          <div class="preview">
+            <img src="/static/images/placeholder.png" alt="preview">
+          </div>
+        </div>
+      </div>
+    
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="avatar lg" src="/static/avatars/ruan_pedritto.png" alt="avatar">
+          <div>
+            <div class="actor-name">ruan_pedritto</div>
+            <div class="actor-username">@ruan_pedritto</div>
+          </div>
+        </div>
+        <div class="profile-body">
+          <p class="bio">Conteúdo de rua, pautas de segurança e identidade AZUL. Opiniões fortes, lives diárias e mobilização de base. Transparência, ordem e comunidade.</p>
+          <div class="numbers">
+            <span><strong>3</strong> posts</span>
+            <span><strong>850.000</strong> seguidores</span>
+            <span><strong>620</strong> seguindo</span>
+          </div>
+          <div class="preview">
+            <img src="/static/images/placeholder.png" alt="preview">
+          </div>
+        </div>
+      </div>
+    
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="avatar lg" src="/static/avatars/carlos_tenorio_sv.png" alt="avatar">
+          <div>
+            <div class="actor-name">carlos_tenorio_sv</div>
+            <div class="actor-username">@carlos_tenorio_sv</div>
+          </div>
+        </div>
+        <div class="profile-body">
+          <p class="bio">Líder do SOWETO VERMELHO · Voz da periferia em VERMELHO ✊🏾
+Base, direitos coletivos e assistência social.
+Mobiliza, escuta, age.</p>
+          <div class="numbers">
+            <span><strong>4</strong> posts</span>
+            <span><strong>600.000</strong> seguidores</span>
+            <span><strong>300</strong> seguindo</span>
+          </div>
+          <div class="preview">
+            <img src="/static/images/placeholder.png" alt="preview">
+          </div>
+        </div>
+      </div>
+    
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="avatar lg" src="/static/avatars/tiago_william_pdc.png" alt="avatar">
+          <div>
+            <div class="actor-name">tiago_william_pdc</div>
+            <div class="actor-username">@tiago_william_pdc</div>
+          </div>
+        </div>
+        <div class="profile-body">
+          <p class="bio">Criador de conteúdo político e comunitário. Defende agenda PDC e ações sociais locais. Posiciona-se por diálogo firme e observância da lei.</p>
+          <div class="numbers">
+            <span><strong>1</strong> posts</span>
+            <span><strong>420.000</strong> seguidores</span>
+            <span><strong>510</strong> seguindo</span>
+          </div>
+          <div class="preview">
+            <img src="/static/images/tiger_nascimento_post_1.png" alt="preview">
+          </div>
+        </div>
+      </div>
+    
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="avatar lg" src="/static/avatars/leonardo_bandeira_apav.png" alt="avatar">
+          <div>
+            <div class="actor-name">leonardo_bandeira_apav</div>
+            <div class="actor-username">@leonardo_bandeira_apav</div>
+          </div>
+        </div>
+        <div class="profile-body">
+          <p class="bio">O campo sustenta o país 🌾
+Defendo o produtor, a integração e o livre mercado.
+APAV | Agricultura forte, VERMELHO soberano</p>
+          <div class="numbers">
+            <span><strong>5</strong> posts</span>
+            <span><strong>230.000</strong> seguidores</span>
+            <span><strong>410</strong> seguindo</span>
+          </div>
+          <div class="preview">
+            <img src="/static/images/placeholder.png" alt="preview">
+          </div>
+        </div>
+      </div>
+    
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="avatar lg" src="/static/avatars/renato_lacerda_mg.png" alt="avatar">
+          <div>
+            <div class="actor-name">renato_lacerda_sp</div>
+            <div class="actor-username">@renato_lacerda_sp</div>
+          </div>
+        </div>
+        <div class="profile-body">
+          <p class="bio">Gestor público focado em integração intersetorial, eficiência de recursos e inovação em prevenção de riscos.</p>
+          <div class="numbers">
+            <span><strong>3</strong> posts</span>
+            <span><strong>18.700</strong> seguidores</span>
+            <span><strong>312</strong> seguindo</span>
+          </div>
+          <div class="preview">
+            <img src="/static/images/placeholder.png" alt="preview">
+          </div>
+        </div>
+      </div>
+    
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="avatar lg" src="/static/avatars/julio_rojas_vm.png" alt="avatar">
+          <div>
+            <div class="actor-name">julio_rojas_vm</div>
+            <div class="actor-username">@julio_rojas_vm</div>
+          </div>
+        </div>
+        <div class="profile-body">
+          <p class="bio">Transformando ideias em telas e políticas públicas em possibilidades
+Produção audiovisual | Estratégias político-econômicas
+VERMELHO: entretenimento que move economia criativa e sociedade
+Cultura, negócios e impacto social em cada projeto</p>
+          <div class="numbers">
+            <span><strong>3</strong> posts</span>
+            <span><strong>3.100.000</strong> seguidores</span>
+            <span><strong>980</strong> seguindo</span>
+          </div>
+          <div class="preview">
+            <img src="/static/images/julio_rojas_vm_post_2.png" alt="preview">
+          </div>
+        </div>
+      </div>
+    
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="avatar lg" src="/static/avatars/pietra_nascimento.png" alt="avatar">
+          <div>
+            <div class="actor-name">pietra_nascimento</div>
+            <div class="actor-username">@pietra_nascimento</div>
+          </div>
+        </div>
+        <div class="profile-body">
+          <p class="bio">Filósofa de etnia VERMELHA. Defesa de princípios cristãos-democratas, pluralismo e controle social das políticas públicas. Crítica do governo de VERMELHO. #DebateCívico</p>
+          <div class="numbers">
+            <span><strong>3</strong> posts</span>
+            <span><strong>1.200.000</strong> seguidores</span>
+            <span><strong>480</strong> seguindo</span>
+          </div>
+          <div class="preview">
+            <img src="/static/images/pietra_nascimento_post_2.png" alt="preview">
+          </div>
+        </div>
+      </div>
+    
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="avatar lg" src="/static/avatars/renato_lacerda_mg.png" alt="avatar">
+          <div>
+            <div class="actor-name">gov_pr_defesa</div>
+            <div class="actor-username">@gov_pr_defesa</div>
+          </div>
+        </div>
+        <div class="profile-body">
+          <p class="bio">Resposta a desastres socioambientais, sustentabilidade territorial e coordenação intersecretarial.</p>
+          <div class="numbers">
+            <span><strong>3</strong> posts</span>
+            <span><strong>247.000</strong> seguidores</span>
+            <span><strong>184</strong> seguindo</span>
+          </div>
+          <div class="preview">
+            <img src="/static/images/placeholder.png" alt="preview">
+          </div>
+        </div>
+      </div>
+    
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="avatar lg" src="/static/avatars/chico_asfalto.png" alt="avatar">
+          <div>
+            <div class="actor-name">chico_asfalto</div>
+            <div class="actor-username">@chico_asfalto</div>
+          </div>
+        </div>
+        <div class="profile-body">
+          <p class="bio">🚛 Francisco Sá - CHICO ASFALTO
+Presidente | Assoc. Transportes Rodoviários do Paranapanema
+3 décadas no asfalto, uma vida de luta
+Liberdade de transporte | Dignidade do caminhoneiro
+Território VERMELHO de ARAÇATUBA
+O diesel corre nas veias, a estrada é meu lar
+📍 Assis · Marília · Araçatuba - TOPÁZIO</p>
+          <div class="numbers">
+            <span><strong>1</strong> posts</span>
+            <span><strong>230.123</strong> seguidores</span>
+            <span><strong>423</strong> seguindo</span>
+          </div>
+          <div class="preview">
+            <img src="/static/images/chico_asfalto_post_1.jpeg" alt="preview">
+          </div>
+        </div>
+      </div>
+    
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="avatar lg" src="/static/avatars/jose_simoes.JPG" alt="avatar">
+          <div>
+            <div class="actor-name">jose_simoes</div>
+            <div class="actor-username">@jose_simoes</div>
+          </div>
+        </div>
+        <div class="profile-body">
+          <p class="bio">Prof. Dr. José Carlos Araújo Simões
+Reitor | UNISAN - Universidade da Baixada Santista
+PhD Ciência Política | Pesquisador em Federalismo
+Defensor do diálogo e da paz duradoura em TOPÁZIO
+Educação transforma, extremismo destrói
+📚 Santos · Praia Grande · Cubatão</p>
+          <div class="numbers">
+            <span><strong>2</strong> posts</span>
+            <span><strong>230.223</strong> seguidores</span>
+            <span><strong>457</strong> seguindo</span>
+          </div>
+          <div class="preview">
+            <img src="/static/images/jose_simoes_post_2.jpeg" alt="preview">
+          </div>
+        </div>
+      </div>
+    
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="avatar lg" src="/static/avatars/default.png" alt="avatar">
+          <div>
+            <div class="actor-name">Dr. Eliana Moreira (Chefe de Missão/CICV)</div>
+            <div class="actor-username">@eliana_moreira_cicv</div>
+          </div>
+        </div>
+        <div class="profile-body">
+          <p class="bio">Acesso, proteção e diálogo humanitário com todas as partes — sempre sob o DIH.</p>
+          <div class="numbers">
+            <span><strong>3</strong> posts</span>
+            <span><strong>7.100</strong> seguidores</span>
+            <span><strong>94</strong> seguindo</span>
+          </div>
+          <div class="preview">
+            <img src="/static/images/placeholder.png" alt="preview">
+          </div>
+        </div>
+      </div>
+    
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="avatar lg" src="/static/avatars/default.png" alt="avatar">
+          <div>
+            <div class="actor-name">Dra. Ana Lúcia Ferreira (Coord. Projetos/MSF)</div>
+            <div class="actor-username">@ana_lucia_msf</div>
+          </div>
+        </div>
+        <div class="profile-body">
+          <p class="bio">Assistência médica de emergência, logística em áreas remotas e relato ético de violações.</p>
+          <div class="numbers">
+            <span><strong>2</strong> posts</span>
+            <span><strong>8.600</strong> seguidores</span>
+            <span><strong>168</strong> seguindo</span>
+          </div>
+          <div class="preview">
+            <img src="/static/images/placeholder.png" alt="preview">
+          </div>
+        </div>
+      </div>
+    
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="avatar lg" src="/static/avatars/default.png" alt="avatar">
+          <div>
+            <div class="actor-name">Dr. John Dutton (Pesquisador Sênior/HRW)</div>
+            <div class="actor-username">@dutton_john_hrw</div>
+          </div>
+        </div>
+        <div class="profile-body">
+          <p class="bio">Documentação de violações, responsabilização e pressão por justiça com base em evidências.</p>
+          <div class="numbers">
+            <span><strong>2</strong> posts</span>
+            <span><strong>6.400</strong> seguidores</span>
+            <span><strong>221</strong> seguindo</span>
+          </div>
+          <div class="preview">
+            <img src="/static/images/placeholder.png" alt="preview">
+          </div>
+        </div>
+      </div>
+    
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="avatar lg" src="/static/avatars/default.png" alt="avatar">
+          <div>
+            <div class="actor-name">Sra. Elza Pereira (Diretora da Viva TOPÁZIO)</div>
+            <div class="actor-username">@elza_pereira_vt</div>
+          </div>
+        </div>
+        <div class="profile-body">
+          <p class="bio">Liderança de base: educação, capacitação e parcerias para segurança humana.</p>
+          <div class="numbers">
+            <span><strong>2</strong> posts</span>
+            <span><strong>9.200</strong> seguidores</span>
+            <span><strong>356</strong> seguindo</span>
+          </div>
+          <div class="preview">
+            <img src="/static/images/placeholder.png" alt="preview">
+          </div>
+        </div>
+      </div>
+    
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="avatar lg" src="/static/avatars/default.png" alt="avatar">
+          <div>
+            <div class="actor-name">Produtor audiovisual e articulador político-econômico</div>
+            <div class="actor-username">@juliano_xavier_az</div>
+          </div>
+        </div>
+        <div class="profile-body">
+          <p class="bio">Transformando ideias em telas e políticas públicas em possibilidades
+Produção audiovisual | Estratégias político-econômicas
+AZUL: entretenimento que move economia criativa e sociedade
+Cultura, negócios e impacto social em cada projeto</p>
+          <div class="numbers">
+            <span><strong>2</strong> posts</span>
+            <span><strong>3.100.000</strong> seguidores</span>
+            <span><strong>980</strong> seguindo</span>
+          </div>
+          <div class="preview">
+            <img src="/static/images/placeholder.png" alt="preview">
+          </div>
+        </div>
+      </div>
+    
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="avatar lg" src="/static/avatars/default.png" alt="avatar">
+          <div>
+            <div class="actor-name">joao_silva_vm</div>
+            <div class="actor-username">@joao_silva_vm</div>
+          </div>
+        </div>
+        <div class="profile-body">
+          <p class="bio">João da Silva
+Mecânico 🔧 | ADRIFER Guarapuava
+Trabalho com viaturas do VERMELHO
+Logística que funciona começa na oficina
+Paraná | Etnia VERMELHO
+Quem mantém a frota, mantém o movimento</p>
+          <div class="numbers">
+            <span><strong>1</strong> posts</span>
+            <span><strong>1.300</strong> seguidores</span>
+            <span><strong>110</strong> seguindo</span>
+          </div>
+          <div class="preview">
+            <img src="/static/images/joao_silva_vm_post_1.png" alt="preview">
+          </div>
+        </div>
+      </div>
+    
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="avatar lg" src="/static/avatars/default.png" alt="avatar">
+          <div>
+            <div class="actor-name">pedro_silva_az</div>
+            <div class="actor-username">@pedro_silva_az</div>
+          </div>
+        </div>
+        <div class="profile-body">
+          <p class="bio">Pedro da Silva
+Mecânico 🔧 | Auto Center Fagaraz Jaú
+Trabalho com viaturas do AZUL
+Logística sólida começa na base
+São Paulo | Etnia AZUL
+Quem mantém a frota, mantém a operação</p>
+          <div class="numbers">
+            <span><strong>1</strong> posts</span>
+            <span><strong>1.300</strong> seguidores</span>
+            <span><strong>110</strong> seguindo</span>
+          </div>
+          <div class="preview">
+            <img src="/static/images/pedro_silva_az_post_1.png" alt="preview">
+          </div>
+        </div>
+      </div>
+    
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="avatar lg" src="/static/avatars/default.png" alt="avatar">
+          <div>
+            <div class="actor-name">Rodrigo Velásquez Abelardo</div>
+            <div class="actor-username">@rodrigo_abelardo</div>
+          </div>
+        </div>
+        <div class="profile-body">
+          <p class="bio">Rodrigo Velásquez Abelardo
+Presidente da FILTO | Candidato à Reeleição
+Federação dos Interesses de TOPÁZIO
+Compromisso com PERUÍBE LIVRE
+Prosperidade vem da liberdade, não da submissão
+📍 Região de Peruíbe - TOPÁZIO</p>
+          <div class="numbers">
+            <span><strong>1</strong> posts</span>
+            <span><strong>1.300</strong> seguidores</span>
+            <span><strong>110</strong> seguindo</span>
+          </div>
+          <div class="preview">
+            <img src="/static/images/rodrigo_abelardo_post_1.png" alt="preview">
+          </div>
+        </div>
+      </div>
+    
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="avatar lg" src="/static/avatars/default.png" alt="avatar">
+          <div>
+            <div class="actor-name">Tobias Inácio Neto</div>
+            <div class="actor-username">@tobias_inacio</div>
+          </div>
+        </div>
+        <div class="profile-body">
+          <p class="bio">Tobias Inácio Neto
+Candidato a Presidente da FILTO
+Federação dos Interesses de TOPÁZIO
+Desenvolvimento real, prosperidade com paz
+Mudança responsável para nossa região</p>
+          <div class="numbers">
+            <span><strong>1</strong> posts</span>
+            <span><strong>1.300</strong> seguidores</span>
+            <span><strong>110</strong> seguindo</span>
+          </div>
+          <div class="preview">
+            <img src="/static/images/tobias_inacio_post_1.png" alt="preview">
+          </div>
+        </div>
+      </div>
+    
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="avatar lg" src="/static/avatars/default.png" alt="avatar">
+          <div>
+            <div class="actor-name">Lucas Santos</div>
+            <div class="actor-username">@lucas_santos</div>
+          </div>
+        </div>
+        <div class="profile-body">
+          <p class="bio">Lucas Santos
+2º Secretário Executivo | FILTO
+Controle Financeiro Interino
+Gestão transparente e responsável
+Alinhado com Tobias Inácio Neto
+Os números não mentem
+📊 Federação TOPÁZIO
+📍 Região de Peruíbe</p>
+          <div class="numbers">
+            <span><strong>1</strong> posts</span>
+            <span><strong>362</strong> seguidores</span>
+            <span><strong>112</strong> seguindo</span>
+          </div>
+          <div class="preview">
+            <img src="/static/images/lucas_santos_post_1.png" alt="preview">
+          </div>
+        </div>
+      </div>
+    
+      <div class="profile-card">
+        <div class="profile-header">
+          <img class="avatar lg" src="/static/avatars/default.png" alt="avatar">
+          <div>
+            <div class="actor-name">Usuário</div>
+            <div class="actor-username">@usuario</div>
+          </div>
+        </div>
+        <div class="profile-body">
+          
+          <div class="numbers">
+            <span><strong>51</strong> posts</span>
+            <span><strong>0</strong> seguidores</span>
+            <span><strong>0</strong> seguindo</span>
+          </div>
+          <div class="preview">
+            <img src="/static/images/placeholder.png" alt="preview">
+          </div>
+        </div>
+      </div>
+    
+  </section>
+
+    </main>
+    <footer class="footer">
+      <p>Simulação Construtiva • Projeto demonstrativo</p>
+    </footer>
+  </body>
+</html>

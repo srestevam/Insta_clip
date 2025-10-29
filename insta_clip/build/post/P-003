@@ -1,0 +1,82 @@
+
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Clipping AZUVER — Insta-like</title>
+    <link rel="stylesheet" href="../static/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand"><a href="../index.html">Clipping • Insta-like</a></div>
+      <nav class="nav">
+        <a href="../index.html">Feed</a>
+        <a href="../profiles">Perfis</a>
+      </nav>
+    </header>
+    <main class="container">
+      
+  <article class="card">
+    <header class="card-header">
+      <img class="avatar" src="/static/avatars/default.png" alt="avatar">
+      <div>
+        <div class="actor-name">Governo do Estado de São Paulo (Programa TOPÁZIO)</div>
+        <div class="actor-username">@gov_sp_topazio</div>
+      </div>
+    </header>
+
+    <div class="image-wrap">
+      <img class="post-image" src="/static/images/placeholder.png" alt="post P-003">
+    </div>
+
+    <div class="card-stats">
+      <div class="stat">❤️ 18.350 curtidas</div>
+      <div class="stat">💬 1290 comentários</div>
+      <div class="stat">🔁 3120 compartilhamentos</div>
+    </div>
+
+    
+    <div class="caption">
+      <span class="actor-username">@gov_sp_topazio</span> ATUALIZAÇÃO 00:20 — Acionamos Defesa Civil e Saúde para resposta humanitária em Ribeira e Registro. Foco: acolhimento, água potável e saneamento de emergência. Fluxos na BR-116 monitorados; coordenação com municípios e organizações humanitárias. Evite deslocamentos não essenciais. #Ribeira #Registro #BR116 #AjudaHumanitária
+    </div>
+    
+
+    <div class="comments">
+      <h3>Comentários (amostra de 10)</h3>
+      <ul>
+        
+          <li>• Onde ficam os pontos de acolhimento em Registro?</li>
+        
+          <li>• Há água potável nos abrigos?</li>
+        
+          <li>• Atualizem a situação da BR-116, por favor.</li>
+        
+          <li>• Obrigado pelo apoio às famílias de Ribeira.</li>
+        
+          <li>• Tem rota alternativa para caminhões de doações?</li>
+        
+          <li>• Os Vermelhinhos terão prioridade no atendimento?</li>
+        
+          <li>• Precisamos de colchões em Bocaiuva do Sul.</li>
+        
+          <li>• Divulguem um número de WhatsApp para emergências.</li>
+        
+          <li>• Como posso ser voluntário em São Paulo?</li>
+        
+          <li>• Transparência nas compras é essencial!</li>
+        
+        
+      </ul>
+    </div>
+  </article>
+
+    </main>
+    <footer class="footer">
+      <p>Simulação Construtiva • Projeto demonstrativo</p>
+    </footer>
+  </body>
+</html>

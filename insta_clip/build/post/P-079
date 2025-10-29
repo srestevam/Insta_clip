@@ -1,0 +1,87 @@
+
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Clipping AZUVER — Insta-like</title>
+    <link rel="stylesheet" href="../static/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand"><a href="../index.html">Clipping • Insta-like</a></div>
+      <nav class="nav">
+        <a href="../index.html">Feed</a>
+        <a href="../profiles">Perfis</a>
+      </nav>
+    </header>
+    <main class="container">
+      
+  <article class="card">
+    <header class="card-header">
+      <img class="avatar" src="/static/avatars/default.png" alt="avatar">
+      <div>
+        <div class="actor-name">Lucas Santos</div>
+        <div class="actor-username">@lucas_santos</div>
+      </div>
+    </header>
+
+    <div class="image-wrap">
+      <img class="post-image" src="/static/images/lucas_santos_post_1.png" alt="post P-079">
+    </div>
+
+    <div class="card-stats">
+      <div class="stat">❤️ 36 curtidas</div>
+      <div class="stat">💬 7 comentários</div>
+      <div class="stat">🔁 14 compartilhamentos</div>
+    </div>
+
+    
+    <div class="caption">
+      <span class="actor-username">@lucas_santos</span> Como 2º Secretário Executivo, acabo de assumir INTERINAMENTE o controle financeiro da FILTO. E o que encontrei precisa ser dito com CLAREZA.
+
+Nos últimos anos, nossa federação comprometeu MILHÕES em financiamento ao MPL. Recursos que saem dos nossos associados, das nossas empresas, do suor de quem trabalha nesta região.
+
+E o retorno? Onde está a prosperidade prometida?
+
+VAMOS AOS NÚMEROS:
+
+Enquanto despejamos recursos em &#34;ações estratégicas&#34; e &#34;apoio logístico ao movimento&#34;, temos:
+❌ Escolas sem reforma há anos
+❌ Estradas em condições precárias
+❌ Pequenos produtores sem crédito
+❌ Jovens sem perspectiva de emprego
+❌ Infraestrutura sucateada
+
+NÃO É SUSTENTÁVEL. NÃO É INTELIGENTE.
+
+Como gestor financeiro, minha responsabilidade é com os NÚMEROS, não com discursos. E os números mostram uma federação SANGRANDO recursos para um projeto sem fim definido.
+
+Entre 03 e 07 de novembro, vocês vão decidir: continuamos nessa espiral de dependência e desperdício, ou mudamos o rumo?
+
+MINHA POSIÇÃO É TÉCNICA, MAS TAMBÉM É POLÍTICA:
+
+Alinho-me com a candidatura de TOBIAS INÁCIO NETO porque acredito em gestão RESPONSÁVEL. Porque acredito que prosperidade se constrói com INVESTIMENTO PRODUTIVO, não com cheques em branco para conflitos sem horizonte.
+    </div>
+    
+
+    <div class="comments">
+      <h3>Comentários (amostra de 10)</h3>
+      <ul>
+        
+        
+          <li>Sem comentários de exemplo nesta postagem.</li>
+        
+      </ul>
+    </div>
+  </article>
+
+    </main>
+    <footer class="footer">
+      <p>Simulação Construtiva • Projeto demonstrativo</p>
+    </footer>
+  </body>
+</html>
