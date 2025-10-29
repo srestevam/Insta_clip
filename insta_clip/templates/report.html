@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='report.css') }}">
+
+<section class="report-cover no-print">
+  <h1>Clipping AZUVER — Relatório (leitura em 2 colunas)</h1>
+  <p class="muted">As postagens são apresentadas lado a lado para aproveitar melhor telas largas. Para exportar em PDF, use o seu script com Chromium/Playwright.</p>
+</section>
+
+{#
+  Mantemos a ideia de "páginas" para PDF/print,
+  mas agora cada .page é uma grade de 2 colunas.
+#}
+{% for page in pages %}
+  <section class="page">
+    {% for p in page %}
+      <article class="post-card">
+        <header class="post-head">
+          <img class="avatar" src="{{ p.actor_avatar_url }}" alt="avatar">
+          <div class="meta">
+            <div class="name">{{ p.actor_name }}</div>
+            <div class="user">@{{ p.actor_username }}</div>
+          </div>
+          <div class="stats">
+            <span>❤️ {{ "{:,}".format(p.likes).replace(",", ".") }}</span>
+            <span>💬 {{ p.comments_count }}</span>
+            <span>🔁 {{ p.shares_count }}</span>
+          </div>
+        </header>
+
+        <figure class="media">
+          <img src="{{ p.post_image_url }}" alt="post {{ p.post_id }}">
+        </figure>
+
+        {% if p.post_caption %}
+        <div class="caption">
+          <div class="caption-title">Legenda</div>
+          <div class="caption-text">{{ p.post_caption }}</div>  {# SEM corte/limite #}
+        </div>
+        {% endif %}
+
+        {% if p.comments and p.comments|length > 0 %}
+        <div class="comments">
+          <div class="comments-title">Comentários (amostra)</div>
+          <ul>
+            {# Mostra todos os comentários disponíveis (caso queira limitar, faça na rota) #}
+            {% for c in p.comments %}
+              <li>• {{ c }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </section>
+{% endfor %}
+{% endblock %}
